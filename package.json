@@ -1,0 +1,22 @@
+{
+    "name": "mpm.duration",
+    "version": "0.0.1",
+    "description": "ISO durations from javascript",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha -R spec"
+    },
+    "devDependencies": {
+        "mocha": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Mparaiso/duration"
+    },
+    "keywords": ["duration", "iso"],
+    "author": "mparaiso",
+    "license": "BSD-2-Clause",
+    "bugs": {
+        "url": "https://github.com/Mparaiso/duration/issues"
+    }
+}
