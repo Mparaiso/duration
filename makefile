@@ -1,6 +1,6 @@
 test:
 	@mocha -R spec
-commit:
+commit: test
 	@git add .
 	@git commit -am"update `date`" || : 
 push: commit

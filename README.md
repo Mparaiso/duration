@@ -5,7 +5,8 @@ DURATION
 
 license: MIT
 
-Deals with ISO durations.
+Deals with ISO 8601 durations.
+
 <h3>Usage</h3>
 <h5>author mparaiso : mparaiso@online.fr</h5>
 <p>Parse a String , get duration object</p>

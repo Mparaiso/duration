@@ -10,8 +10,7 @@
  * 	- [ ] support casting duration to number
  */
 "use strict";
-var util=require('util')
-, _=require('underscore');
+var util=require('util');
 
 var pattern = /^P((\d+)(Y))?((\d+)(M))?((\d+)(D))?((T)((\d+)(H))?((\d+)(M))?(([0-9]+(\.[0-9]+)?)(S))?)?$/
 , index={
@@ -136,7 +135,7 @@ duration.Duration.prototype = {
 duration.parse=function(duration){
 	var _match = pattern.exec(duration);
 	if(_match === null){
-	 	throw util.format("%s is not a valid ISO 8601 duration",duration);
+	 	throw duration +" is not a valid ISO 8601 duration";
 	}
 	duration = new this.Duration();
 	duration.years = parseFloat(_match[index.years])||0;
