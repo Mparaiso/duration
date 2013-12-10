@@ -1,6 +1,10 @@
 DURATION
 ========
 
+####author mparaiso <mparaiso@online.fr>
+
+license: MIT
+
 Deals with ISO durations.
 <h3>Usage</h3>
 <h5>author mparaiso : mparaiso@online.fr</h5>
