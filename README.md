@@ -7,6 +7,17 @@ license: MIT
 
 Deals with ISO 8601 durations.
 
+<h3>Install</h3>
+<h4>With npm</h4>
+in package.json
+<pre><code>
+{
+	"dependencies":{
+		"mpm.duration":"*"
+	}
+}
+</code></pre>
+
 <h3>Usage</h3>
 <h5>author mparaiso : mparaiso@online.fr</h5>
 <p>Parse a String , get duration object</p>
