@@ -10,7 +10,6 @@
  * 	- [ ] support casting duration to number
  */
 "use strict";
-var util=require('util');
 
 var pattern = /^P((\d+)(Y))?((\d+)(M))?((\d+)(D))?((T)((\d+)(H))?((\d+)(M))?(([0-9]+(\.[0-9]+)?)(S))?)?$/
 , index={
