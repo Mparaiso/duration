@@ -1,6 +1,8 @@
 DURATION
 ========
 
+[![NPM](https://nodei.co/npm/mpm.duration.png?downloads=true)](https://nodei.co/npm/mpm.duration/)
+
 ####author mparaiso <mparaiso@online.fr>
 
 license: MIT
@@ -19,7 +21,7 @@ in package.json
 </code></pre>
 
 <h3>Usage</h3>
-<h5>author mparaiso : mparaiso@online.fr</h5>
+
 <p>Parse a String , get duration object</p>
 <pre><code>
 	var d1 = duration.parse("P1Y3M10D");
