@@ -1,13 +1,14 @@
 {
     "name": "mpm.duration",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "ISO durations from javascript",
     "main": "index.js",
     "scripts": {
         "test": "mocha -R spec"
     },
     "devDependencies": {
-        "mocha": "*"
+        "mocha": "*",
+        "chai":"*"
     },
     "repository": {
         "type": "git",

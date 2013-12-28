@@ -1,6 +1,6 @@
 DURATION
 ========
-
+[![Build Status](https://travis-ci.org/Mparaiso/mpm.duration.png?branch=master)](https://travis-ci.org/Mparaiso/mpm.duration)
 [![NPM](https://nodei.co/npm/mpm.duration.png?downloads=true)](https://nodei.co/npm/mpm.duration/)
 
 ####author mparaiso <mparaiso@online.fr>
